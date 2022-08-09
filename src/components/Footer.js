@@ -14,7 +14,9 @@ const Footer = (props) => {
         fontStyle: 'italic',
         paddingTop: '10px',
         paddingBottom: '10px',
-        margin: '0px'
+        margin: '0px',
+        overflowX: 'scroll',
+        
 
     }
 
@@ -35,6 +37,7 @@ const Footer = (props) => {
         <div>{refs[8]} </div>
         <div>{refs[9]} </div>
         <div>{refs[10]} </div>
+        <div>{refs[11]} </div>
 
     </div>
     </div>
