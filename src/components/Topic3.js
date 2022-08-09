@@ -42,7 +42,9 @@ const Topic3 = () => {
         paddingRight: '15%',
         justifyContent: 'center',
         flexDirection: 'row',
-        overflowY: 'scroll'
+        flexWrap: 'wrap',
+        overflowY: 'scroll',
+        overflowX: 'scroll'
     }
 
     var refs = ['https://www.calgary.ca/water/flooding/history-calgary.html']

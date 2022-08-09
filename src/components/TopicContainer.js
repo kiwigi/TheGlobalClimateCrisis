@@ -17,7 +17,6 @@ const TopicContainer = (props) => {
         padding: '16px 23px',
         textDecoration: 'none'
        
-    
         
     }
 
@@ -26,7 +25,7 @@ const TopicContainer = (props) => {
         fontSize: '16px',
         color: '#474747',
         fontFamily: 'Century Gothic, sans-serif',
-        padding: '10px',
+        padding: '20px',
         paddingTop: '25px',
         paddingBottom: '50px',
         width : '350px',
