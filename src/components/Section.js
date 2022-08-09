@@ -36,9 +36,16 @@ const Section = (props) => {
         marginRight: 'auto'
 
     }
+    function secTitleStyle() {
+        var cNam= 'Section'
+        if(props.sectionTitle===''){
+        cNam=''
+        }
+        return cNam;
+    }
     
     return <div style= {sectionStyle} >
-        <div className="Section"> {props.sectionTitle} 
+        <div className={secTitleStyle()}> {props.sectionTitle} 
         </div>
         <div style = {sectionContentStyle}>
             {props.sectionContent}
