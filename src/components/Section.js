@@ -21,7 +21,7 @@ const Section = (props) => {
         fontFamily: 'Century Gothic, sans-serif',
         paddingTop: '10px',
         // maxHeight : '500px',
-         maxWidth : '500px',
+        maxWidth : '500px',
         overflowY: 'scroll'
         
         

@@ -25,7 +25,7 @@ const TopicContainer = (props) => {
         fontSize: '16px',
         color: '#474747',
         fontFamily: 'Century Gothic, sans-serif',
-        padding: '20px',
+        padding: '15px',
         paddingTop: '25px',
         paddingBottom: '50px',
         width : '350px',
