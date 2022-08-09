@@ -39,7 +39,7 @@ const Topic2 = () => {
 
     return(
         <div style={pageStyle}>
-            <a  href= '../' className="Button"> ↩ Back
+            <a  href= '../' className="Button"> ← Back
             </a>
             <div className='h2'>
             The Commoditization of Climate Change: Carbon Trading

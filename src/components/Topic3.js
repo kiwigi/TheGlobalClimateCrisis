@@ -50,7 +50,7 @@ const Topic3 = () => {
     return(
 
         <div style={pageStyle}>
-            <a  href= '../' className="Button"> ↩ Back
+            <a  href= '../' className="Button"> ← Back
             </a>
             <div className='h2'>
             Climate Crisis Based on Location

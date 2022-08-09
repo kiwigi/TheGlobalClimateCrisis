@@ -41,7 +41,7 @@ const Topic1 = () => {
     return(
         
         <div style={pageStyle}>
-            <a  href= '../' className="Button"> ↩ Back
+            <a  href= '../' className="Button"> ← Back
             </a>
             <div className='h2'>
             The Impact of Race & Socioeconomic Class in the U.S.A. 
