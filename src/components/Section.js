@@ -4,7 +4,7 @@ const Section = (props) => {
 
     const sectionStyle = {
         
-        maxWidth : '350px',
+        maxWidth : '500px',
         paddingLeft: '0.5%',
         paddingRight: '0.5%',
         paddingTop: '0.0%',
@@ -28,7 +28,12 @@ const Section = (props) => {
     }
 
     const imgStyle={
-        width: '80%'
+        paddingTop: '20px',
+        width: '100%',
+        display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto'
+
     }
     
     return <div style= {sectionStyle} >

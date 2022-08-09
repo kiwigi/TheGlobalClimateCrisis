@@ -56,7 +56,7 @@ const Topic1 = () => {
             </div>
 
 
-            <Footer topicRefs={refs}/>
+            <Footer topicAuth={'Keishi Exell'} topicRefs={refs}/>
             
         </div>
     )
