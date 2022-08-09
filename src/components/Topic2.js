@@ -36,7 +36,7 @@ const Topic2 = () => {
             </div>
             <div> 
                 <div style={rowStyle}>
-                <Section sectionTitle={'Introduction'} sectionContent={''}
+                <Section sectionTitle={'Introduction'} sectionContent={''}/>
                 <Section sectionTitle={'sec3'}/>
                 <Section sectionTitle={'Conclusion'}/>
 
