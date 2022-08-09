@@ -4,11 +4,12 @@ import styles from './button.css'
 const TopicContainer = (props) => {
 
     const topicStyle = {
+
         textAlign: 'center',
         backgroundColor: '#d5f6da',
         border: '1px solid #26b634',
         height: '40px',
-        width: '330px',
+        width: '300px',
         color: '#00132C',
         fontFamily: "Avenir Next LT W01 Bold,sans-serif",
         fontSize: '13px',
@@ -27,10 +28,11 @@ const TopicContainer = (props) => {
         color: '#474747',
         textAlign: 'left',
         fontFamily: 'Century Gothic, sans-serif',
-        padding: '5%',
+        padding: '10%',
+  
         paddingTop: '25px',
         paddingBottom: '60px',
-        width : '350px',
+        width : '300px',
         
 
         
@@ -48,7 +50,7 @@ const TopicContainer = (props) => {
         padding: '5%',
         paddingTop: '25px',
         paddingBottom: '10px',
-        width : '350px',
+        width : '300px',
 
 
         
