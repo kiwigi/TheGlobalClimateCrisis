@@ -8,7 +8,7 @@ const TopicContainer = (props) => {
         backgroundColor: '#d5f6da',
         border: '1px solid #26b634',
         height: '40px',
-        width: '350px',
+        width: '330px',
         color: '#00132C',
         fontFamily: "Avenir Next LT W01 Bold,sans-serif",
         fontSize: '13px',

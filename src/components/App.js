@@ -13,7 +13,7 @@ const App = () => {
     const containerStyle = {
         display: 'flex',
         justifyContent: 'center',
-        padding: '5% 5%',
+        padding: '10% 10%',
         flexWrap: 'wrap'
 
 
