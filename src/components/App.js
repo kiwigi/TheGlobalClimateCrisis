@@ -24,7 +24,7 @@ const App = () => {
     switch (window.location.pathname) {
         case '/':
             currScreen = 
-            <div >
+            <div className="topicStyle">
             <div className="h1">THE GLOBAL CLIMATE CRISIS</div>
             <div className='image'><Lottie animationData={Animation} loop={true} /></div>
             {/* <img src="/titlelogo.png" alt="image" className="image"/> */}

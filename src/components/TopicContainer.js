@@ -22,21 +22,22 @@ const TopicContainer = (props) => {
 
 
     const topicContentStyle= {
+        
         fontSize: '16px',
         color: '#474747',
+        textAlign: 'left',
         fontFamily: 'Century Gothic, sans-serif',
-        padding: '15px',
+        padding: '5%',
         paddingTop: '25px',
-        paddingBottom: '50px',
+        paddingBottom: '60px',
         width : '350px',
+        
 
         
     }
 
     const btnStyle ={
-        marginLeft: 'auto',
-        
-  
+        marginLeft: '0px',
       
     }
 
@@ -44,10 +45,11 @@ const TopicContainer = (props) => {
         fontSize: '13px',
         color: '#474747',
         fontFamily: 'Century Gothic, sans-serif',
-        padding: '10px',
+        padding: '5%',
         paddingTop: '25px',
         paddingBottom: '10px',
         width : '350px',
+
 
         
     }

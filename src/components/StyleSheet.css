@@ -45,7 +45,17 @@
     padding-bottom: 50px;
   }
 
-  .tab {
-    display: inline-block;
-    margin-left: 40px;
+ 
+@media only screen and (max-width: 950px) {
+  .topicStye {
+     padding-left: 10%;
+     padding-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .topicStye {
+     padding-left: 0;
+     padding-right: 0;
+  }
 }

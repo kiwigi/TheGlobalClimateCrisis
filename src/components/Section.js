@@ -23,8 +23,7 @@ const Section = (props) => {
         // maxHeight : '500px',
         maxWidth : '500px',
         overflowY: 'scroll'
-        
-        
+          
         
     }
 
