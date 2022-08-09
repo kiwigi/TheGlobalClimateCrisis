@@ -8,6 +8,7 @@ const Section = (props) => {
         paddingLeft: '0.5%',
         paddingRight: '0.5%',
         paddingTop: '0.0%',
+        paddingBottom: '0.5%'
         
         
         
@@ -29,7 +30,7 @@ const Section = (props) => {
 
     const imgStyle={
         paddingTop: '20px',
-        width: '100%',
+        width: '90%',
         display: 'block',
         marginLeft: 'auto',
         marginRight: 'auto'
@@ -43,6 +44,7 @@ const Section = (props) => {
             {props.sectionContent}
         </div>
         <img  style={imgStyle} src={props.sectionPic}/>
+        <a href= {props.sectionPicCr} className="PhotoCred">  {props.sectionPicCrName}</a>
     </div>
 }
 

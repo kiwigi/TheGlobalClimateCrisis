@@ -40,10 +40,22 @@ const TopicContainer = (props) => {
   
       
     }
+
+    const topicAuthStyle= {
+        fontSize: '13px',
+        color: '#474747',
+        fontFamily: 'Century Gothic, sans-serif',
+        padding: '10px',
+        paddingTop: '25px',
+        paddingBottom: '10px',
+        width : '350px',
+
+        
+    }
     
     return <div style={{paddingBottom: '20px'}}>
         <div style= {topicStyle}>{props.topicTitle}</div>
-
+        <div style={topicAuthStyle}>By: {props.topicAuth}</div>
         <div style = {topicContentStyle}>
             {props.topicContent}
         </div>

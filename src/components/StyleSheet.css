@@ -38,6 +38,13 @@
     text-decoration: none;
   }
 
+  .PhotoCred {
+    font-size: 11px;
+    color: #cccccc;
+    font-family: "Century Gothic", sans-serif;
+    padding-bottom: 50px;
+  }
+
   .tab {
     display: inline-block;
     margin-left: 40px;
